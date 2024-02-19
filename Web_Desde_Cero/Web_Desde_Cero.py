@@ -19,6 +19,7 @@ def index() -> rx.Component:
         padding_y="10px", #El padding es el espacio que hay entre el borde y el contenido
     )
 
+
 app = rx.App()
 app.add_page(index)
 app.compile()
